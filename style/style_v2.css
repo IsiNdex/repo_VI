@@ -1,0 +1,87 @@
+body {
+    background-color: lightslategray;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.logop1 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: transparent;
+    border-radius: 50%;
+    border: 15px solid white;
+    z-index: 1;
+    display: flex;
+
+    /* position joistic */
+
+    left: 250px;
+    top: 150px;
+}
+
+.logop2 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: black;
+    border-radius: 50%;
+    border: 15px solid white;
+    display: flex;
+
+    /* position joistic */
+
+    left: 250px;
+    top: 150px;
+}
+
+.logop3 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: black;
+    border-radius: 50%;
+    border: 15px solid white;
+    display: flex;
+
+    /* position joistic */
+
+    left: 420px;
+    top: 150px;
+}
+
+.mastercard {
+    font-size: 75px;
+    font-family: 'poppins',sans-serif;
+    position: absolute;
+
+    /* position joistic */
+    left: 290px;
+    top: 500px;
+}
+
+.trademark {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+
+    /* position joistic */
+    left: 680px;
+    top: 510px;
+}
+
+.registered {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    opacity: 0.7;
+
+    /* position joistic */
+    left: 750px;
+    top: 420px;
+}
